@@ -1,0 +1,120 @@
+.container{
+    height: 100vh;
+    background-color: rgb(245, 233, 225);
+}
+
+
+
+.carditems{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 2em;
+    width: 30%;
+    height: fit-content;
+    transition: all 2s ease;
+    
+}
+
+
+.skills{
+    
+    font-family: 'Playfair Display', serif;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+}
+
+.carditems:hover{
+transform: translateY(-2px);
+transform: scale(1.1);
+border: 1px solid darkgray;
+
+}
+.softskills{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    margin:0 auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s ease;
+}
+.softskills div:hover{
+    border: 1px solid lightgray;
+    transform: translateY(-2px);
+transform: scale(1);
+}
+.arrowback{
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.softskills div {
+    flex: 1;
+}
+.skillscontainer button{
+    padding:.3em 2em;
+    border: .9px solid rgb(96, 96, 138);
+    border-radius: 4px;
+display: flex;
+font-size: 1.4rem;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.skillscontainer {
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+.skillscontainer h1{
+    font-size: 2rem;
+}
+
+.skillscontainer h2{
+    font-size: 1rem;
+    font-weight: 500;
+    margin:  0 2em 0 0;
+}
+.btnview{
+    
+    display: flex;
+    margin-top: .4em;
+    justify-content: space-between;
+}
+.btnview p{
+    font-size: 1.3rem;
+    color: rgb(65, 58, 107);
+}
+
+.badge{
+    border-radius: 4px;
+    background-color: red;
+    color:white;
+    padding: .3em;
+    box-shadow: 2px 2px 6px darkgray;
+    margin-bottom: .5em;
+}
+.badge3{
+    border-radius: 4px;
+    background-color:rgb(179, 63, 63);
+    color:white;
+    padding: .4em;
+    box-shadow: 2px 2px 6px rgb(112, 106, 106);
+    margin-bottom: .5em;
+}
+.forward{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .3em;
+}
+.forward p{
+    color: rgb(38, 38, 73);
+}
+
+

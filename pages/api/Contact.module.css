@@ -1,0 +1,46 @@
+.arrowback{
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    margin-top: 1enm;
+    justify-content: center;
+    align-items: center;
+}
+.contactcontainer{
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.contactcontainer p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Playfair Display', serif;
+}
+.contactcontainer h2{
+    text-align: center;
+
+    font-family: 'Playfair Display', serif;
+}
+.contactcontainer ul{
+    gap: 1em;
+list-style-type: none;
+}
+.links{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}

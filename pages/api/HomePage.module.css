@@ -1,0 +1,42 @@
+.home{
+    background-color: rgb(88, 80, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    gap: 3em;
+}
+.talents{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+    width: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+.talents button{
+    padding: .5em 3em;
+    font-size: 1rem;
+    margin-top:1em ;
+    width: 100%;
+    border-radius: 4px;
+    border: 2px solid black;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+.home p{
+    font-family: 'Playfair Display', serif;
+  
+}
+.page{
+    display: flex;
+    flex-direction: column;
+
+}
+.page p{
+    color: rgb(82, 82, 146);
+    font-size: 1rem;
+}
