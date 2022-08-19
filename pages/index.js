@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HomePage from "./api/HomePage"
+import HomePage from "./HomePage"
 import Link from 'next/link'
 
 import styles from '../styles/Home.module.css'

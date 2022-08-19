@@ -1,0 +1,11 @@
+.arrowback{
+    display: flex;
+    align-items: center;
+    gap: .6em;
+    cursor: pointer;
+}
+.forward{
+    align-items: center;
+    gap: .6em;
+    cursor: pointer;
+}

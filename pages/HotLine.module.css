@@ -1,0 +1,57 @@
+.arrowback{
+    display: flex;
+    margin-top: 1em;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+    
+}
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    margin-top: 1enm;
+    justify-content: center;
+    align-items: center;
+}
+.contactcontainer{
+    background-color: blanchedalmond;
+    margin: 0 auto;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1rem;
+    font-family: 'Playfair Display', serif;
+
+}
+.contactcontainer p{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+.contactcontainer h2{
+    text-align: center;
+
+    font-family: 'Playfair Display', serif;
+}
+.contactcontainer ul{
+    gap: 1em;
+list-style-type: none;
+}
+.links{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+.social{
+    display: flex;
+    gap: 1em;
+}
