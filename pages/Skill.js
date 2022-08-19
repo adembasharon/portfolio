@@ -1,12 +1,12 @@
 import styles from "./Skill.module.css"
-import HandymanIcon from '@mui/icons-material/Handyman';
-import Stack from '@mui/material/Stack';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import Image from 'next/image';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import HandymanIcon from "@mui/icons-material/Handyman";
+import Stack from "@mui/material/Stack";
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import Image from "next/image";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import Link from "next/link"
 import css from "../public/images/css.svg";
 import js from "../public/images/js.svg";
@@ -30,7 +30,7 @@ const Skill = () => {
             <div className={styles.skillscontainer}>
                 <h1> <HandymanIcon style={{ color: "darkblue" }} />SKILLS</h1>
 
-                <Stack spacing={7} direction="row" sx={{ color: 'action.active' }}>
+                <Stack spacing={7} direction="row" sx={{ color: "action.active" }}>
                     <div className={styles.badge}>Technical Skills</div>
 
 
@@ -41,12 +41,12 @@ const Skill = () => {
                 <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={node} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={node} width={30} height={30} alt=""/>
+                                <Typography  className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     NodeJs
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                I use node for non-blocking , event-driven service,due to its it's single-threaded nature.It handles all my backend api's.
+                                <Typography className="card-Desc" sx={{ mb:0}}>
+                I use node for non-blocking , event-driven service,due to its it is single-threaded nature.It handles all my backend api.
                                 </Typography>
 
 
@@ -58,11 +58,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={mongo} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={mongo} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     MongoData Base
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                 Mongodb allows me store large scale data and allows me to work with data efficiently. 
                                 </Typography>
 
@@ -75,11 +75,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                            <Image src={reacticon} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                            <Image src={reacticon} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     ReactJs
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
             React helps me create UserInterface in a predictable and efficient way using declarative code. It also helps me buld complex apps in combination to other libraries.
                                 </Typography>
 
@@ -93,12 +93,12 @@ const Skill = () => {
                 <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={nextjs} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={nextjs} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     NextJS
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                                    It's a react framework that gives me a block to create web application, it handles tooling and configuration needed for react.
+                                <Typography className="card-Desc">
+                                    It is a react framework that gives me a block to create web application, it handles tooling and configuration needed for react.
                                 </Typography>
 
 
@@ -110,11 +110,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={js} width={40} height={40} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={js} width={40} height={40} alt=""/>
+                                <Typography className="card-tech" sx={{mb: 0 }} gutterBottom>
                                     JS ES6
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     Using modern ES6 JS I am able to create dynamically updating content like animate images.
                                 </Typography>
 
@@ -126,12 +126,12 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={html} width={30} height={30} />
+                                <Image src={html} width={30} height={30} alt=""/>
 
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Typography className="card-tech" sx={{mb: 0 }} gutterBottom>
                                     HTML V6
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
     The mark-up language helps to stracture content and tells a web browser on how to display them.
                                 </Typography>
 
@@ -144,11 +144,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={css} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={css} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     css V3
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     I design good and beautiful webpages using the latest version of CSS
                                 </Typography>
 
@@ -161,11 +161,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={bootstrap} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={bootstrap} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     Bootstrap
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     Bootsrap helps me create responsive web pages and also I use it to create website with good UserInterface.
                                 </Typography>
 
@@ -178,11 +178,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={sass} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={sass} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     SASS
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     Using SASS I design webpages with good UI and UX
                                 </Typography>
 
@@ -197,11 +197,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={vs} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={vs} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     Visual Studio Code
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                     I use open-source vscode for deburging,syntax highlighting,inteligent coide completion,code refactoring and also embed git.
                                 </Typography>
 
@@ -215,11 +215,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={ssh} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={ssh} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     Command Line
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     Command line helps with different ways of setting parameters for the environmennt and providing information to them as to what action they are to perform.
                                 </Typography>
 
@@ -233,11 +233,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={linux} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={linux} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     Linux
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     I use Linux OS system to make connection between my software and physical resources that do work.
                                 </Typography>
 
@@ -251,11 +251,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={git} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={git} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     Git
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     This is a souyrce code management that helps me handle smass and large preojecs, it also helps me to track changes that i make in the sourece code.
                                 </Typography>
 
@@ -268,11 +268,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={github} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={github} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     GitHub
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     Github is an open source that helps me make separate changes to different web pages at the same time, It also help mme in collaboration with other developers.
 
                                 </Typography>
@@ -286,11 +286,11 @@ const Skill = () => {
                     <div className={styles.carditems}>
                         <Card>
                             <CardContent>
-                                <Image src={wordpress} width={30} height={30} />
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Image src={wordpress} width={30} height={30} alt=""/>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     Word Press
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     I create simple and small Website using wordpress open source.
                                 </Typography>
 
@@ -302,7 +302,7 @@ const Skill = () => {
 
                 </div>
 
-                <Stack spacing={7} direction="row" sx={{ color: 'action.active' }}>
+                <Stack spacing={7} direction="row" sx={{ color: "action.active" }}>
                     <div className={styles.badge3}>Soft Skills</div>
 
                 </Stack>
@@ -310,10 +310,10 @@ const Skill = () => {
                     <div>
                         <Card>
                             <CardContent>
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Typography className="card-tech" sx={{ mb: 0 }} gutterBottom>
                                     Team
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 400 }}>
+                                <Typography className="card-Desc">
                                     I have worked in team making me more conversant in teamwork .Always hopping to work in a team.
                                 </Typography>
 
@@ -326,10 +326,10 @@ const Skill = () => {
                     <div>
                         <Card>
                             <CardContent>
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Typography className="card-tech" sx={{mb: 0 }} gutterBottom>
                                     Communication
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     I have good communication skills which I have gained through presentation of of most of my projects including client projects.
                                 </Typography>
 
@@ -342,10 +342,10 @@ const Skill = () => {
                     <div>
                         <Card>
                             <CardContent>
-                                <Typography sx={{ fontSize: 30, fontWeight: 500, mb: 0 }} gutterBottom>
+                                <Typography className="card-tech" sx={{  mb: 0 }} gutterBottom>
                                     Presentation
                                 </Typography>
-                                <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                                <Typography className="card-Desc">
                                     I am a good presenter with good presentation skills and always ready to take correction.
                                 </Typography>
 
@@ -356,7 +356,7 @@ const Skill = () => {
                     </div>
                 </div>
                 <div className={styles.btnview}>
-                <Link href="/Me">
+                <Link href="/Me" passHref>
                     <div className="backward arrowback">
 
                         
@@ -369,7 +369,7 @@ const Skill = () => {
                     </div>
                     </Link>
 
-                        <Link href="/Projects">
+                        <Link href="/Projects" passHref>
                         <div className="forward arrowback">
 
                             <div>

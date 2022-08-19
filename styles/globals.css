@@ -104,3 +104,21 @@ object-fit: contain;
 .linksToProjects{
   flex: 1;
 }
+
+.linksToProjects p{
+  color:white;
+   font-size:2rem;
+     font-weight: 600;
+}
+.crafted p{
+  text-align:center;
+    /* mt:2 */
+}
+.card-tech{
+  font-size: 30; 
+  font-weight: 500;
+}
+.card-Desc{
+  font-size: 20;
+  font-weight: 500 ;
+}

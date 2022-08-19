@@ -1,38 +1,38 @@
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
+import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import styles from "./Skill.module.css"
 import Link from "next/link";
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
 import pizza from "../public/images/pizza.png"
 import Image from "next/image"
 import nesco from "../public/images/nesco.png"
 import black from "../public/images/blackeyed.png"
 import magoso from "../public/images/magoso.png"
 import palindrome from "../public/images/palindrome.png"
-import { RadioButtonChecked } from '@mui/icons-material';
+import { RadioButtonChecked } from "@mui/icons-material";
 
 const Project = () => {
     return (
         <div className="ProjectCont">
             <div className="project_title"><h1>These are my Projects</h1></div>
             <div className="project_container">
-                <div className='project_subDiv'>
+                <div className="project_subDiv">
 
                 <div>
                     <Card>
                         <CardContent>
                             <Typography>
                                 <h6>Magoso E-Commerce</h6>
-                                <Image src={magoso} width={230} height={230} />
+                                <Image src={magoso} width={230} height={230} alt=""/>
                             </Typography>
                             <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                                 <div className="portLinks">
 
-                                    <button><Link href="https://github.com/adembasharon/ecommerce">GitHub</Link></button>
+                                    <button><Link href="https://github.com/adembasharon/ecommerce" passHref>GitHub</Link></button>
 
-                                    <button><Link href="https://adembasharon.github.io/ecommerce/">live site</Link></button>
+                                    <button><Link href="https://adembasharon.github.io/ecommerce/" passHref>live site</Link></button>
                                 </div>
 
                                 <div>
@@ -75,14 +75,14 @@ const Project = () => {
                         <CardContent>
                             <Typography >
                                 <h6>Black Eyed-Peas</h6>
-                                <Image src={black} width={230} height={230} />
+                                <Image src={black} width={230} height={230} alt=""/>
                             </Typography>
                             <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
 
                                 <div className="portLinks">
-                                    <button><Link href="https://github.com/adembasharon/black-eyed-peas">GitHub</Link></button>
+                                    <button><Link href="https://github.com/adembasharon/black-eyed-peas" passHref>GitHub</Link></button>
 
-                                    <button><Link href="https://adembasharon.github.io/black-eyed-peas/">live site</Link></button>
+                                    <button><Link href="https://adembasharon.github.io/black-eyed-peas/" passHref>live site</Link></button>
                                 </div>
 
                                 <div>
@@ -131,14 +131,14 @@ const Project = () => {
                         <CardContent>
                             <Typography>
                                 <h6>Pizza Buffet</h6>
-                                <Image src={pizza} width={230} height={230} />
+                                <Image src={pizza} width={230} height={230} alt=""/>
                             </Typography>
                             <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                             </Typography>
                             <div className="portLinks">
-                                <button><Link href="https://github.com/adembasharon/pizza-buffet">GitHub</Link></button>
+                                <button><Link href="https://github.com/adembasharon/pizza-buffet" passHref>GitHub</Link></button>
 
-                                <button><Link href="https://adembasharon.github.io/pizza-buffet/">live site</Link></button>
+                                <button><Link href="https://adembasharon.github.io/pizza-buffet/" passHref>live site</Link></button>
                             </div>
 
 
@@ -187,14 +187,14 @@ const Project = () => {
                         <CardContent>
                             <Typography>
                                 <h6>NescoBar</h6>
-                                <Image src={nesco} width={230} height={230} />
+                                <Image src={nesco} width={230} height={230} alt=""/>
                             </Typography>
                             <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                             </Typography>
                             <div className="portLinks">
-                                <button><Link href="https://github.com/adembasharon/nescobar">GitHub </Link></button>
+                                <button><Link href="https://github.com/adembasharon/nescobar" passHref>GitHub </Link></button>
 
-                                <button><Link href="">live site</Link></button>
+                                <button><Link href="" passHref>live site</Link></button>
                             </div>
 
 
@@ -249,13 +249,13 @@ const Project = () => {
                         <CardContent>
                             <Typography >
                                 <h6>Palindrome Checker</h6>
-                                <Image src={palindrome} width={230} height={230} />
+                                <Image src={palindrome} width={230} height={230} alt=""/>
                             </Typography>
                             <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
                                 <div className="portLinks">
-                                <button><Link href="https://github.com/adembasharon/palindrome-checker">GitHub</Link></button>                               
+                                <button><Link href="https://github.com/adembasharon/palindrome-checker" passHref>GitHub</Link></button>                               
 
-                            <button><Link href="https://adembasharon.github.io/palindrome-checker/">live site</Link></button>
+                            <button><Link href="https://adembasharon.github.io/palindrome-checker/" passHref>live site</Link></button>
                             </div>
                             <div>
                                     <h6>TECHNOLOGIES</h6>
@@ -299,7 +299,7 @@ const Project = () => {
             </div>
             <div className={styles.btnview}>
 
-                <Link href="/Skill">
+                <Link href="/Skill" passHref>
                     <div className="backward">
                         <div>
                             <ArrowBackIcon style={{ color: "maroon" }} />
