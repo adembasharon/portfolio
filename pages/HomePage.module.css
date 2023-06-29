@@ -50,4 +50,5 @@ background-color: rgb(228, 212, 215);
 .social{
     display: flex;
     gap: 1em;
+    cursor: pointer;
 }

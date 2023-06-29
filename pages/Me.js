@@ -17,7 +17,7 @@ const Me=()=>{
                 {/* <div className={styles.dev} style={{textAlign:"center",display:"flex",justifyContent:"center"}}> */}
                 <div className={styles.dev}>
                 <div>
-            <h1> Meet your DEV</h1>
+            <h1> Meet your Dev</h1>
             </div>
             <div>
             <Image src={happy} width={25} height={25} style={{color:"red"}} alt=""/>

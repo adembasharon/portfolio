@@ -6,7 +6,7 @@ import ArrowDownwardIcon from "@mui/icons-material/ArrowDownward";
 import github from "../public/images/github.svg";
 import linkedin from "../public/images/linkedin.svg";
 import twitter from "../public/images/twitter.svg";
-import whatsapp from "../public/images/whatsapp.svg";
+// import whatsapp from "../public/images/whatsapp.svg";
 import instagram from "../public/images/instagram.svg";
 // import WhatsappContainer from "@mui/icons-material/WhatsappContainer";
 // import WhatsAppIcon from "@mui/icons-material/WhatsApp";
@@ -70,11 +70,11 @@ const HomePage = () => {
                 </Link>
                 </div>
 
-                <div>
+                {/* <div>
                     <Link href="https:/api.whatsapp.com/send?phone+254731066135" target="_blank" passHref>
                 <Image src={whatsapp} width={25} height={25} alt=""/>
                 </Link>
-                </div>
+                </div> */}
 
                 <div>
                     <Link href="https://github.com/adembasharon" passHref>

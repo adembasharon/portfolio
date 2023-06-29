@@ -356,7 +356,7 @@ const Skill = () => {
                     </div>
                 </div>
                 <div className={styles.btnview}>
-                <Link href="/Me" passHref>
+                <Link href="/" passHref>
                     <div className="backward arrowback">
 
                         

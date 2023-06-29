@@ -12,6 +12,8 @@ import black from "../public/images/blackeyed.png"
 import magoso from "../public/images/magoso.png"
 import palindrome from "../public/images/palindrome.png"
 import { RadioButtonChecked } from "@mui/icons-material";
+import screenshot from "../public/images/screenshot.png";
+import magososchool from "../public/images/magososchool.png";
 
 const Project = () => {
     return (
@@ -19,6 +21,138 @@ const Project = () => {
             <div className="project_title"><h1>These are my Projects</h1></div>
             <div className="project_container">
                 <div className="project_subDiv">
+
+                <div>
+                    <Card>
+                        <CardContent>
+                            <Typography>
+                                <h6>Magoso</h6>
+                                <Image src={magososchool} width={230} height={230} alt=""/>
+                            </Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                            </Typography>
+                            <div className="portLinks">
+
+                                <button><Link href="https://magoso.org/" passHref>live site</Link></button>
+                            </div>
+
+                            <div>
+                                    <h6>TECHNOLOGIES</h6>
+                                    <div style={{display:"flex",alignItems:"center",flexDirection:"row",gap:".5em"}}>
+                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>Wordpress</p>
+                                        </div>
+                                    </div>
+                                                                
+
+                                </div>
+                                </div>
+
+                        </CardContent>
+
+                    </Card>
+                </div>
+
+                <div>
+                    <Card>
+                        <CardContent>
+                            <Typography>
+                                <h6>mislConsultancy</h6>
+                                <Image src={screenshot} width={230} height={230} alt=""/>
+                            </Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                            </Typography>
+                            <div className="portLinks">
+
+                                <button><Link href="https://mislconsultancy.com/" passHref>live site</Link></button>
+                            </div>
+
+                            <div>
+                                    <h6>TECHNOLOGIES</h6>
+                                    <div style={{display:"flex",alignItems:"center",flexDirection:"row",gap:".5em"}}>
+                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>Wordpress</p>
+                                        </div>
+                                    </div>
+                                                                
+
+                                </div>
+                                </div>
+
+                        </CardContent>
+
+                    </Card>
+                </div>
+
+                <div>
+                    <Card>
+                        <CardContent>
+                            <Typography>
+                                <h6>NescoBar</h6>
+                                <Image src={nesco} width={230} height={230} alt=""/>
+                            </Typography>
+                            <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
+                            </Typography>
+                            <div className="portLinks">
+                                <button><Link href="https://github.com/adembasharon/nescobar" passHref>GitHub </Link></button>
+
+                                <button><Link href="" passHref>live site</Link></button>
+                            </div>
+
+
+                            <div>
+                                    <h6>TECHNOLOGIES</h6>
+                                    <div style={{display:"flex",alignItems:"center",flexDirection:"row",gap:".5em"}}>
+                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>React</p>
+                                        </div>
+                                    </div>
+                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>Material UI</p>
+                                        </div>
+                                    </div>
+                                   
+
+                                </div>
+                                </div>
+
+                                   <div style={{display:"flex", alignItems:"center",gap:".5em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>Styled Components      </p>
+                                        </div>
+                                    </div>
+
+                                    <div style={{display:"flex", alignItems:"center",gap:".5em"}}>
+                                        <div>
+                                            <RadioButtonChecked></RadioButtonChecked>
+                                        </div>
+                                        <div>
+                                            <p>Nodejs    </p>
+                                        </div>
+                                    </div>
+                        </CardContent>
+
+                    </Card>
+                </div>
 
                 <div>
                     <Card>
@@ -182,67 +316,7 @@ const Project = () => {
 
 
 
-                <div>
-                    <Card>
-                        <CardContent>
-                            <Typography>
-                                <h6>NescoBar</h6>
-                                <Image src={nesco} width={230} height={230} alt=""/>
-                            </Typography>
-                            <Typography sx={{ fontSize: 20, fontWeight: 500 }}>
-                            </Typography>
-                            <div className="portLinks">
-                                <button><Link href="https://github.com/adembasharon/nescobar" passHref>GitHub </Link></button>
-
-                                <button><Link href="" passHref>live site</Link></button>
-                            </div>
-
-
-                            <div>
-                                    <h6>TECHNOLOGIES</h6>
-                                    <div style={{display:"flex",alignItems:"center",flexDirection:"row",gap:".5em"}}>
-                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
-                                        <div>
-                                            <RadioButtonChecked></RadioButtonChecked>
-                                        </div>
-                                        <div>
-                                            <p>React</p>
-                                        </div>
-                                    </div>
-                                    <div style={{display:"flex", alignItems:"center",gap:".2 em"}}>
-                                        <div>
-                                            <RadioButtonChecked></RadioButtonChecked>
-                                        </div>
-                                        <div>
-                                            <p>Material UI</p>
-                                        </div>
-                                    </div>
-                                   
-
-                                </div>
-                                </div>
-
-                                   <div style={{display:"flex", alignItems:"center",gap:".5em"}}>
-                                        <div>
-                                            <RadioButtonChecked></RadioButtonChecked>
-                                        </div>
-                                        <div>
-                                            <p>Styled Components      </p>
-                                        </div>
-                                    </div>
-
-                                    <div style={{display:"flex", alignItems:"center",gap:".5em"}}>
-                                        <div>
-                                            <RadioButtonChecked></RadioButtonChecked>
-                                        </div>
-                                        <div>
-                                            <p>Nodejs    </p>
-                                        </div>
-                                    </div>
-                        </CardContent>
-
-                    </Card>
-                </div>
+              
 
                 <div >
                     <Card>

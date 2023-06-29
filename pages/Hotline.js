@@ -8,7 +8,6 @@ import ArrowBackIcon from "@mui/icons-material/ArrowBack";
 import styles from "./HotLine.module.css";
 import Link from "next/link";
 
-import whatsapp from "../public/images/whatsapp.svg";
 import instagram from "../public/images/instagram.svg";
 
 
@@ -44,11 +43,7 @@ const HotLine = () => {
                 </Link>
                 </div>
 
-                <div>
-                    <Link href="https:/api.whatsapp.com/send?phone+254731066135" target="_blank" passHref>
-                <Image src={whatsapp} width={25} height={25} alt=""/>
-                </Link>
-                </div>
+                
 
                 <div>
                     <Link href="https://github.com/adembasharon" passHref>
